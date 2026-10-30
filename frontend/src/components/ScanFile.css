@@ -1,0 +1,169 @@
+
+.scan-file-page {
+  color: #302018;
+}
+
+.file-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.file-heading span {
+  color: #9a7153;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.file-heading h2 {
+  margin: 8px 0;
+  font-size: 28px;
+}
+
+.file-heading p {
+  color: #806c60;
+}
+
+.file-icon {
+  font-size: 40px;
+  background: #e6d2c0;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.file-banner,
+.file-card {
+  background: #f1e5d7;
+  border: 1px solid #c8b6a7;
+  border-radius: 15px;
+  padding: 24px;
+  margin-bottom: 22px;
+}
+
+.file-banner {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.file-banner > span {
+  font-size: 30px;
+}
+
+.file-banner h3,
+.file-card h3 {
+  margin-top: 0;
+}
+
+.file-banner p,
+.file-card > p {
+  color: #806c60;
+}
+
+.file-card input[type="file"] {
+  width: 100%;
+  padding: 18px;
+  margin: 15px 0;
+  border: 2px dashed #c8b6a7;
+  border-radius: 12px;
+  background: #faf5ef;
+}
+
+.selected-file {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 15px;
+  background: #e8d9c9;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.selected-file > span {
+  font-size: 25px;
+}
+
+.selected-file div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  overflow-wrap: anywhere;
+}
+
+.selected-file small {
+  color: #806c60;
+}
+
+.file-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.file-scan-button,
+.file-clear-button {
+  border: none;
+  padding: 12px 22px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.file-scan-button {
+  background: #b98255;
+  color: white;
+}
+
+.file-clear-button {
+  background: #dfd0c2;
+  color: #302018;
+}
+
+.file-scan-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.file-result {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  background: #e8d9c9;
+}
+
+.file-result.warning {
+  background: #f2d4ce;
+  color: #9c3026;
+}
+
+.file-result.error {
+  background: #f2d4ce;
+  color: #9c3026;
+}
+
+.file-result.info {
+  background: #e5def0;
+  color: #5d536e;
+}
+
+.file-warning {
+  color: #806c60;
+  background: #f1e5d7;
+  border: 1px solid #c8b6a7;
+  padding: 16px;
+  border-radius: 10px;
+  font-size: 13px;
+}
+
+@media (max-width: 600px) {
+  .file-heading h2 {
+    font-size: 23px;
+  }
+
+  .file-banner,
+  .file-card {
+    padding: 17px;
+  }
+}

@@ -1,0 +1,284 @@
+
+.scan-image-page {
+  width: 100%;
+  color: #302018;
+}
+
+.scan-image-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.page-label {
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: #a16d49;
+  font-weight: bold;
+}
+
+.scan-image-heading h2 {
+  font-size: 27px;
+  margin: 7px 0;
+}
+
+.scan-image-heading p {
+  color: #88776a;
+  font-size: 13px;
+}
+
+.scan-image-icon {
+  width: 55px;
+  height: 55px;
+  display: grid;
+  place-items: center;
+  background: #e7d2bd;
+  border-radius: 14px;
+  font-size: 27px;
+}
+
+.image-info-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: #493027;
+  color: #fff5eb;
+  padding: 20px;
+  border-radius: 13px;
+  margin-bottom: 22px;
+}
+
+.image-info-card > span {
+  font-size: 28px;
+}
+
+.image-info-card strong {
+  font-size: 15px;
+}
+
+.image-info-card p {
+  color: #e6d5c8;
+  font-size: 12px;
+  line-height: 1.6;
+  margin-top: 5px;
+}
+
+.image-upload-card {
+  background: #fffaf4;
+  border: 1px solid #ddcfc1;
+  border-radius: 14px;
+  padding: 25px;
+}
+
+.image-upload-card > h3 {
+  font-size: 17px;
+}
+
+.upload-description {
+  color: #88776a;
+  font-size: 12px;
+  margin: 7px 0 20px;
+}
+
+.upload-area {
+  min-height: 270px;
+  border: 2px dashed #c8b6a7;
+  border-radius: 12px;
+  background: #faf4ed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  text-align: center;
+  padding: 20px;
+  transition: 0.2s;
+}
+
+.upload-area:hover {
+  border-color: #b98255;
+  background: #f6ebdf;
+}
+
+.upload-icon {
+  font-size: 42px;
+  margin-bottom: 12px;
+}
+
+.upload-area h3 {
+  font-size: 15px;
+  margin-bottom: 7px;
+}
+
+.upload-area p {
+  color: #88776a;
+  font-size: 12px;
+}
+
+.browse-button {
+  background: #b98255;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 7px;
+  margin: 17px 0;
+  cursor: pointer;
+}
+
+.upload-area small {
+  font-size: 10px;
+  color: #99897c;
+}
+
+.image-preview-section {
+  border: 1px solid #e5d8cb;
+  padding: 16px;
+  border-radius: 10px;
+  background: #faf4ed;
+}
+
+.preview-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+.image-selected {
+  color: #397340;
+  font-size: 11px;
+}
+
+.uploaded-image-preview {
+  width: 100%;
+  max-height: 350px;
+  object-fit: contain;
+  background: #eee5dc;
+  border-radius: 9px;
+}
+
+.image-file-details {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 15px 0;
+}
+
+.image-file-details > span {
+  font-size: 24px;
+}
+
+.image-file-details strong,
+.image-file-details small {
+  display: block;
+  overflow-wrap: anywhere;
+}
+
+.image-file-details strong {
+  font-size: 12px;
+}
+
+.image-file-details small {
+  color: #88776a;
+  margin-top: 5px;
+  font-size: 10px;
+}
+
+.preview-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.change-image-button,
+.remove-image-button {
+  padding: 9px 15px;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.change-image-button {
+  background: #493027;
+  color: white;
+  border: none;
+}
+
+.remove-image-button {
+  background: transparent;
+  color: #a34b3d;
+  border: 1px solid #d9b5aa;
+}
+
+.scan-image-button {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  background: #b98255;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.scan-image-button:disabled {
+  background: #c8b6a7;
+  cursor: not-allowed;
+}
+
+.image-result {
+  background: #f1e5d7;
+  border-left: 4px solid #b98255;
+  border-radius: 7px;
+  padding: 15px;
+  margin-top: 18px;
+}
+
+.image-result h3 {
+  font-size: 14px;
+  margin-bottom: 7px;
+}
+
+.image-result p {
+  font-size: 12px;
+  line-height: 1.6;
+  color: #655447;
+}
+
+.image-safety-note {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  background: #f8e9d9;
+  border: 1px solid #e5c9ae;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.image-safety-note span {
+  font-size: 18px;
+}
+
+.image-safety-note p {
+  font-size: 11px;
+  line-height: 1.6;
+  color: #655447;
+}
+
+@media (max-width: 600px) {
+  .image-upload-card {
+    padding: 15px;
+  }
+
+  .upload-area {
+    min-height: 230px;
+  }
+
+  .preview-header {
+    gap: 10px;
+  }
+}

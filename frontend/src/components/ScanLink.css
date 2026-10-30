@@ -1,0 +1,169 @@
+
+.scan-link-page {
+  width: 100%;
+  color: #302018;
+}
+
+.link-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.link-label {
+  color: #a16d49;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.link-heading h2 {
+  font-size: 27px;
+  margin: 7px 0;
+}
+
+.link-heading p {
+  color: #88776a;
+  font-size: 13px;
+}
+
+.link-shield {
+  width: 55px;
+  height: 55px;
+  display: grid;
+  place-items: center;
+  border-radius: 14px;
+  background: #e7d2bd;
+  font-size: 25px;
+}
+
+.link-banner {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 22px;
+  border-radius: 13px;
+  background: #493027;
+  color: #fff5eb;
+  margin-bottom: 22px;
+}
+
+.link-banner > span {
+  font-size: 30px;
+}
+
+.link-banner h3 {
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.link-banner p {
+  color: #e6d5c8;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.link-scan-card {
+  padding: 25px;
+  border-radius: 14px;
+  background: #fffaf4;
+  border: 1px solid #ddcfc1;
+}
+
+.link-scan-card h3 {
+  font-size: 17px;
+}
+
+.link-scan-card > p {
+  font-size: 12px;
+  color: #88776a;
+  margin: 8px 0 20px;
+}
+
+.url-input-area {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 5px 14px;
+  border: 1px solid #c8b6a7;
+  border-radius: 8px;
+  background: #faf4ed;
+}
+
+.url-input-area span {
+  font-size: 19px;
+}
+
+.url-input-area input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 12px 0;
+  color: #302018;
+  font-size: 13px;
+}
+
+.link-scan-button {
+  width: 100%;
+  padding: 13px;
+  margin-top: 18px;
+  border: none;
+  border-radius: 8px;
+  background: #b98255;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.link-scan-button:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.link-result {
+  margin-top: 20px;
+  padding: 16px;
+  border-left: 4px solid #b98255;
+  border-radius: 7px;
+  background: #f1e5d7;
+}
+
+.link-result strong {
+  font-size: 14px;
+}
+
+.link-result p {
+  margin-top: 8px;
+  color: #655447;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.link-warning {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 15px;
+  margin-top: 20px;
+  border: 1px solid #e5c9ae;
+  border-radius: 10px;
+  background: #f8e9d9;
+}
+
+.link-warning span {
+  font-size: 18px;
+}
+
+.link-warning p {
+  color: #655447;
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+  .link-scan-card {
+    padding: 16px;
+  }
+}
